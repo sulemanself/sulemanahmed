@@ -7,7 +7,6 @@ import Stack from './components/Stack';
 import Projects from './components/Projects';
 import CallBooking from './components/CallBooking';
 import { SparklesPreview, SparklesPreviewDark, SparklesPreviewColorful } from './components/ui/sparkles.demo';
-import { StackedCircularFooter } from './components/ui/stacked-circular-footer';
 
 function App() {
   return (
@@ -31,7 +30,6 @@ function App() {
       <SparklesPreview />
       <SparklesPreviewDark />
       <SparklesPreviewColorful />
-      <StackedCircularFooter />
     </div>
   );
 }
