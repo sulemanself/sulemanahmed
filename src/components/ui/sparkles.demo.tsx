@@ -1,6 +1,4 @@
-"use client";
-import React from "react";
-import { SparklesCore } from "@/components/ui/sparkles"
+import { SparklesCore } from "./sparkles";
 
 export function SparklesPreview() {
   return (
@@ -80,5 +78,3 @@ export function SparklesPreviewColorful() {
     </div>
   );
 }
-
-export { SparklesPreview, SparklesPreviewDark, SparklesPreviewColorful };
